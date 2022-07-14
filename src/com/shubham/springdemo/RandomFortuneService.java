@@ -29,7 +29,7 @@ public class RandomFortuneService implements FortuneService {
 		 * 
 		 * return theFortune;
 		 */
-		File file = new File("C:\\Users\\Shubham_p\\EclipseWorkspace\\spring-demo-annotations\\fortuneFile.txt");
+		File file = new File("E:\\Workspace\\spring-demo-annotations\\fortuneFile.txt");
 
 		java.util.List<String> lines = new ArrayList<String>();
 
