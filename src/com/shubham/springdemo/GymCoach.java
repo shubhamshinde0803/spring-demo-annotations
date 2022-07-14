@@ -10,4 +10,10 @@ public class GymCoach implements Coach {
 		return "do 10 100m sprints!!!";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
