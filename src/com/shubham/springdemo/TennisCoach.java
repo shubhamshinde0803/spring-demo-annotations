@@ -19,19 +19,19 @@ public class TennisCoach implements Coach {
 
 	// define a default constructor
 	public TennisCoach() {
-		System.out.println("inside default constructor");
+		System.out.println("TennisCoach: inside default constructor");
 	}
 
 	// define my init method
 	@PostConstruct
 	public void doMyStuff() {
-		System.out.println("inside doMyStuff() init method");
+		System.out.println("TennisCoach: inside doMyStuff() init method");
 	}
 	
 	//define my destroy method
 	@PreDestroy
 	public void doMyCleanup() {
-		System.out.println("inside doMyCleanup() destroy method");
+		System.out.println("TennisCoach: inside doMyCleanup() destroy method");
 	}
 //	@Autowired
 //	public TennisCoach(FortuneService theFortuneService) {
